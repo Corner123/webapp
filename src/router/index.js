@@ -12,14 +12,9 @@ Vue.use(VueRouter)
   },
   {
     path: '/about',
-    name: 'List',
-    component: () => import('../views/List.vue')
+    name: 'About',
+    component: () => import('../views/About.vue')
   },
-  {
-    path: '/list',
-    name: 'List',
-    component: () => import('../views/List.vue')
-  }
 ]
 
 const router = new VueRouter({
